@@ -1,0 +1,63 @@
+Enclosure (Entity) 
+
+Enclosure_Number (Primary Key) 
+
+Habitat_Type (Attribute) 
+
+Enclosure_Size (Attribute) 
+
+Enclosure_Main_Feature (Attribute) 
+
+ 
+
+Animal (Entity) 
+
+Animal_ID (Primary Key) 
+
+Enclosure_Number (Foreign Key) 
+
+Animal_Name (Attribute) 
+
+Animal_Date_Of_Birth (Attribute) 
+
+Animal_Diet (Attribute) 
+
+Animal_Description (Attribute) 
+
+Start_Date (Attribute) 
+
+End_Date (Attribute) 
+
+Note (Attribute) 
+
+Date_During_Note (Attribute) 
+
+ 
+
+Species (Entity) 
+
+Species_Name (Primary Key) 
+
+Species_Description (Attribute) 
+
+Enclosure_Number (Foreign Key) 
+
+Habitat_Type (Attribute) 
+
+SpeciesA (Attribute) 
+
+SpeciesB (Attribute) 
+
+Compatibility_Rating (Attribute) 
+
+ 
+
+Enclosure-Species (Entity) 
+
+Enclosure_Number (Key) 
+
+Species_Name (Key) 
+
+Number_Of_Animals_Of_Species (Attribute) 
+
+Maximum_Number_Of_Animals_Of_Species (Attribute) 
