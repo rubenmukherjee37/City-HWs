@@ -1,0 +1,51 @@
+Bay (Entity) 
+
+Bay_Number (Primary Key) 
+
+Number_of_Bins (Attribute) 
+
+Bay_Location (Attribute) 
+
+Bay_Height (Attribute) 
+
+ 
+
+Bin (Entity) 
+
+Bay_Number (Foreign Key) 
+
+Bin_Number (Primary Key) 
+
+Bin_Size (Attribute) 
+
+Maximum_Loaded_Size (Attribute) 
+
+Number_of_Items (Attribute) 
+
+ 
+
+Fork Lift (Entity) 
+
+Bay_Number (Foreign Key) 
+
+Equipment_Number (Primary Key) 
+
+Maximum_Carrying_Weight (Attribute) 
+
+Petrol_or_Electric (Attribute) 
+
+ 
+
+Item (Entity) 
+
+Item_Number (Primary Key) 
+
+Bay_Number (Foreign Key) 
+
+Bin_Number (Foreign Key) 
+
+Warehouse_Date (Attribute) 
+
+Item_Weight (Attribute) 
+
+Bin_Date (Attribute)
